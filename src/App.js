@@ -26,15 +26,15 @@ function App() {
     getCandidates();
     getRemainingTime();
     getCurrentStatus();
-    // if (window.ethereum) {
-    //   window.ethereum.on('accountsChanged', handleAccountsChanged);
-    // }
+    if (window.ethereum) {
+      window.ethereum.on('accountsChanged', handleAccountsChanged);
+    }
 
-    // return() => {
-    //   if (window.ethereum) {
-    //     window.ethereum.removeListener('accountsChanged', handleAccountsChanged);
-    //   }
-    // }
+    return() => {
+      if (window.ethereum) {
+        window.ethereum.removeListener('accountsChanged', handleAccountsChanged);
+      }
+    }
   },);
 
   async function checkWinCandi() {
