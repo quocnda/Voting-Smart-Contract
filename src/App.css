@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f1f1f1;
+
 }
 
 .connected-header {
@@ -48,7 +48,7 @@
 .connected-account {
   font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .connected-button {
@@ -75,8 +75,9 @@
 
 .candidates-table {
   border-collapse: collapse;
-  width: 50%;
+  width: 80%;
   text-align:center;
+  background-color: white;
 }
 
 .candidates-table th, .candidates-table td {
