@@ -3,14 +3,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #f1f1f1;
+  height: 50vh;
+  
 }
 
 .welcome-message {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .login-button {
@@ -95,4 +96,10 @@ input[type=number] {
   box-sizing: border-box;
   font-size: 16px;
   margin-bottom: 10px;
+}
+.background-meta {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://demoda.vn/wp-content/uploads/2022/01/hinh-nen-cong-nghe.jpg);
+  background-repeat: no-repeat;
 }

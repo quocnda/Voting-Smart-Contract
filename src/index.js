@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import videoBg from './assets/video/beach.mp4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode className="background">
+   <video src={videoBg} autoPlay loop muted />
     <App />
+
   </React.StrictMode>
 );
 

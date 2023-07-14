@@ -1,4 +1,4 @@
-const contractAddress = "0xE32444260C165e75Bb8348DcD3aA13Fd03E048E0"
+const contractAddress = "0xEC010395E04f54B2A29ef0bbDdf996d79A7b5069"
 const contractAbi = [
 	{
 		"inputs": [
@@ -73,6 +73,31 @@ const contractAbi = [
 				"internalType": "struct Voting.Candidate[]",
 				"name": "",
 				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getCandidateWin",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "voteCount",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct Voting.Candidate",
+				"name": "",
+				"type": "tuple"
 			}
 		],
 		"stateMutability": "view",
