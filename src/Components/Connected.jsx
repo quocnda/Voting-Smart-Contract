@@ -31,9 +31,9 @@ const Connected = (props) => {
             <table id="myTable" className="candidates-table">
                 <thead>
                 <tr>
-                    <th>Index</th>
-                    <th>Candidate name</th>
-                    <th>Candidate votes</th>
+                    <th>Id</th>
+                    <th>Candidate Name</th>
+                    <th>Count Votes</th>
                 </tr>
                 </thead>
                 <tbody>
