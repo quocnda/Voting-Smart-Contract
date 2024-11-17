@@ -1,3 +1,10 @@
+# About this Voting APP
+This project using smart contract to storage, verify for voting event
+Back-end:
+- Solidity
+- NodeJS
+Front-end:
+- React JS
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
