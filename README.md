@@ -1,5 +1,6 @@
 # About this Voting APP
 This project using smart contract to storage, verify for voting event
+
 Back-end:
 - Solidity
 - NodeJS
