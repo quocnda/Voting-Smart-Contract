@@ -3,6 +3,7 @@ This project using smart contract to storage, verify for voting event
 Back-end:
 - Solidity
 - NodeJS
+
 Front-end:
 - React JS
 # Getting Started with Create React App
